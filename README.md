@@ -4,7 +4,7 @@
 
 ## Project
 
-The objective of this lab was to recreate our previous, Salmon cookies application, using a new framework that we taught ourself, which was Vue.
+The objective of this lab was to recreate our previous Salmon cookies application, using a new framework that we taught ourself, which was Vue.
 
 ### Customize configuration
 

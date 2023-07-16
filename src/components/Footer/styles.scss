@@ -1,16 +1,11 @@
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    padding: 15px;
-    margin-bottom: auto;
-}
-
-.footer-contact,
-.footer-location,
-.footer-hours {
-    display: inline;
-    padding: 10px;
-    margin-bottom: 5px;
-}
+.wrapper {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+  }

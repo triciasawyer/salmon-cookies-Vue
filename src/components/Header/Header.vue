@@ -3,10 +3,10 @@
 </template>
 <script>
 export default {
-    name: 'headerComponent',
-}
+  name: "headerComponent",
+};
 </script>
 
 <style lang="scss">
-@import './styles.scss';
+@import "./styles.scss";
 </style>

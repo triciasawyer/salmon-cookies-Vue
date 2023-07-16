@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-
     <form @submit.prevent="addStore" class="form">
       <fieldset>
+        <div class="form-border">
         <legend class="form-heading">Add store location</legend>
 
         <div class="form-group">
@@ -24,12 +24,13 @@
           <label for="avgCookies">Average cookies</label>
           <input type="text" id="avgCookies" v-model="avgCookies" />
         </div>
+        </div>
       </fieldset>
 
       <fieldset class="fieldset">
-      <div class="button-container">
-        <button type="reset" value="reset">Reset Form</button>
-        <button type="submit">Submit</button>
+        <div class="button-container">
+          <button type="reset" value="reset">Reset Form</button>
+          <button type="submit">Submit</button>
         </div>
       </fieldset>
     </form>
@@ -94,10 +95,10 @@ export default {
   },
   computed: {
     hourlyTotals() {
-    const totals = [];
-    for (let i = 0; i < this.hours.length; i++) {
-      let total = 0;
-              for (let j = 0; j < this.storeLocations.length; j++) {
+      const totals = [];
+      for (let i = 0; i < this.hours.length; i++) {
+        let total = 0;
+        for (let j = 0; j < this.storeLocations.length; j++) {
           total += this.storeLocations[j].cookiesPerHour[i];
         }
         totals.push(total);
@@ -108,30 +109,35 @@ export default {
       return this.hourlyTotals.reduce((acc, total) => acc + total, 0);
     },
   },
-methods: {
-  addStore() {
-  const newStore = {
-    storeName: this.storeName,
-    minCust: parseInt(this.minCust),
-    maxCust: parseInt(this.maxCust),
-    avgCookies: parseInt(this.avgCookies),
-    totalDailyCookies: 0,
-    cookiesPerHour: [],
-  };
+  methods: {
+    addStore() {
+      // if the form is empty, don't add "NaN" when submitting
+      if (!this.storeName || !this.minCust || !this.maxCust || !this.avgCookies) {
+        alert("Please fill in all fields before submitting.");
+        return;
+      }
 
+      const newStore = {
+        storeName: this.storeName,
+        minCust: parseInt(this.minCust),
+        maxCust: parseInt(this.maxCust),
+        avgCookies: parseInt(this.avgCookies),
+        totalDailyCookies: 0,
+        cookiesPerHour: [],
+      };
 
-  for (let i = 0; i < this.hours.length; i++) {
-    newStore.cookiesPerHour[i] = Math.floor(
-      randomCust(newStore.minCust, newStore.maxCust) * newStore.avgCookies
-    );
-    newStore.totalDailyCookies += newStore.cookiesPerHour[i];
-  }
+      for (let i = 0; i < this.hours.length; i++) {
+        newStore.cookiesPerHour[i] = Math.floor(
+          randomCust(newStore.minCust, newStore.maxCust) * newStore.avgCookies
+        );
+        newStore.totalDailyCookies += newStore.cookiesPerHour[i];
+      }
 
-  this.storeLocations.push(newStore);
-  this.resetForm();
-},
+      this.storeLocations.push(newStore);
+      this.resetForm();
+    },
 
-     resetForm() {
+    resetForm() {
       this.storeName = "";
       this.minCust = "";
       this.maxCust = "";
@@ -147,5 +153,5 @@ function randomCust(minCust, maxCust) {
 
 
 <style lang="scss">
-@import './styles.scss';
+@import "./styles.scss";
 </style>

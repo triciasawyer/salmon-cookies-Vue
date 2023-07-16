@@ -1,14 +1,21 @@
 .image {
     width: 15rem;
     height: auto;
-    margin-left: 20rem;
+    margin-left: 37rem;
+    margin-top: 15px;
 }
 
 .content {
-    width: 40rem;
-    height: auto;
-    margin-bottom: 20px;
-    margin-left: 21rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.card {
+    background-color: #98d5d8;
+    color: #333333;
     text-align: center;
-    margin-top: 5rem;
+    font-size: 20px;
+    color: rgb(28, 27, 27);
 }

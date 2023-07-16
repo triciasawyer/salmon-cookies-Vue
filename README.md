@@ -2,28 +2,22 @@
 
 ## Author: Justin and Tricia
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
+### Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+### Project Setup
+
+Run these commands:
 
 `npm install`
 
 `npm run dev`
 
-### Compile and Minify for Production
+### Deployment
 
-```sh
-npm run build
-```
+[Code sandbox](https://jqpn3f-5173.csb.app/)
 
-### Lint with [ESLint](https://eslint.org/)
+### Links and Resources
 
-```sh
-npm run lint
-```
+[Vue](https://vuejs.org/guide/introduction.html)

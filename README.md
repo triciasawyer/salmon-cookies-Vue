@@ -22,6 +22,10 @@ Run these commands:
 
 [Code sandbox](https://jqpn3f-5173.csb.app/)
 
+### UML
+
+![UML - Salmon Cookies](src/assets/UML-Salmon-cookies.png)
+
 ### Links and Resources
 
 [Vue](https://vuejs.org/guide/introduction.html)

@@ -46,7 +46,7 @@ Routes:
 
 - Testing was a struggle
 
-- The docuemntation was helpful, but the concepts weren't explained well so had to find that elsewhere
+- The docuemntation was helpful, but the concepts weren't explained as in deptch as I owuld like so had to find that elsewhere
 
 ### UML
 

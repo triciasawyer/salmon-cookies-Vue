@@ -4,7 +4,11 @@
 
 ## Project
 
-The objective of this lab was to recreate our previous Salmon cookies application, using a new framework that we taught ourself, which was Vue.
+The objective of this lab was to recreate our previous Salmon cookies application, using a new framework that we taught ourself, which was Vue.js.
+
+### Vue.js
+
+As of 2021, Vue.js had gained traction and was known for its simplicity, ease of integration, and framework design. It had a strong and growing community at that time, with a large number of developers using it to build various types of web apps.
 
 ### Customize configuration
 

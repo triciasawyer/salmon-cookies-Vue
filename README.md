@@ -14,17 +14,43 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 Run these commands:
 
-`npm install`
+1. `npm install`
 
-`npm run dev`
+2. `npm run dev`
 
-### Deployment
+### Features
 
-[Code sandbox](https://jqpn3f-5173.csb.app/)
+Routes:
+
+- `/` - Home
+
+- `/sales` - Sales
+
+- `/contact` - Contact
+
+#### Pros
+
+- Flexibility
+
+- Syntax (template and script tags) was confusing concept at first, but docs were helpful in a way
+
+- Easy implementation to our already existing code
+
+#### Cons
+
+- Fewer tools available compared to React
+
+- Testing was a struggle
+
+- The docuemntation was helpful, but the concepts weren't explained well so had to find that elsewhere
 
 ### UML
 
 ![UML - Salmon Cookies](src/assets/UML-Salmon-cookies.png)
+
+### Deployment
+
+[Code sandbox](https://jqpn3f-5173.csb.app/)
 
 ### Links and Resources
 

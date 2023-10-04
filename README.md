@@ -18,50 +18,33 @@ As of 2021, Vue.js was renowned for its:
 
 ### Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+For detailed configuration information, please refer to the [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ### Project Setup
 
-Run these commands:
+To set up the project, follow these steps:
 
-1. `npm install`
-
-2. `npm run dev`
+1. Run `npm install` to install the neccessary dependencies.
+2. Execute `npm run dev` to start the develomoent server.
 
 ### Features
 
 Routes:
 
+Our application comes with the following routes:
+
 - `/` - Home
-
 - `/sales` - Sales
-
 - `/contact` - Contact
 
-#### Pros
-
-- Flexibility
-
-- Syntax (template and script tags) was confusing concept at first, but docs were helpful in a way
-
-- Easy implementation to our already existing code
-
-#### Cons
-
-- Fewer tools available compared to React
-
-- Testing was a struggle
-
-- The documentation was helpful, but the concepts weren't explained as in depth as we would've liked so had to find that elsewhere
-
-### UML
+### UML Diagram
 
 ![UML - Salmon Cookies](src/assets/UML-Salmon-cookies.png)
 
 ### Deployment
 
-[Code sandbox](https://jqpn3f-5173.csb.app/)
+You can check out our deployed Vue-SalmonCookies application on [Code sandbox](https://jqpn3f-5173.csb.app/)
 
 ### Links and Resources
 
-[Vue](https://vuejs.org/guide/introduction.html)
+For more information about Vue.js, please visit the official [Vue.js Documentation](https://vuejs.org/guide/introduction.html)

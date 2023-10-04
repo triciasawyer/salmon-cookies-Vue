@@ -43,7 +43,7 @@ Our application comes with the following routes:
 
 ### Deployment
 
-You can check out our deployed Vue-SalmonCookies application on [Code sandbox](https://jqpn3f-5173.csb.app/)
+You can check out our deployed Vue-SalmonCookies application on [Code sandbox](https://rts337-5173.csb.app/)
 
 ### Links and Resources
 

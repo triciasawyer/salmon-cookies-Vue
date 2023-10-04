@@ -1,4 +1,5 @@
 <template>
+  <img class="logo-img" src="@/assets/fish-logo.png" alt="salmon" />
   <h1>Salmon Cookies</h1>
 </template>
 <script>

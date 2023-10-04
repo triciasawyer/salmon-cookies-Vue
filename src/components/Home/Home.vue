@@ -1,7 +1,7 @@
 <template>
   <header />
 
-  <img class="image" src="@/assets/salmon.png" alt="salmon" />
+  <!-- <img class="image" src="@/assets/salmon.png" alt="salmon" /> -->
 
   <div class="content">
     <Card>
